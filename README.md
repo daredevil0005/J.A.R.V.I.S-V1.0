@@ -138,10 +138,15 @@ Examples:
 ---
 
 ### 5️⃣ Frontend Setup
+Option 1 (Recommended - npm)
 
-* cd agent-ui
-* npm install or pnpm install
-* npm run dev or pnpm run dev
+npm install
+npm run dev
+
+Option 2 (Alternative - pnpm)
+
+pnpm install
+pnpm run dev
 
 ---
 
