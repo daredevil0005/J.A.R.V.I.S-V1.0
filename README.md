@@ -95,6 +95,28 @@ User → LiveKit UI → Assistant Core → AI Model → Tool Modules → Operati
 
 ---
 
+## 📋 Prerequisites
+
+Before installing and running **J.A.R.V.I.S**, make sure the following software is installed on your system:
+
+| Software | Version | Purpose |
+|----------|---------|---------|
+| Python | 3.11+ | Runs the backend AI assistant |
+| Node.js | 20+ | Required for the Next.js frontend |
+| npm | Latest | Installs frontend dependencies (included with Node.js) |
+| pnpm *(Optional)* | Latest | Alternative package manager for the frontend |
+| Git *(Optional)* | Latest | Clone the repository and manage source code |
+
+---
+
+### Verify Installation
+
+python --version
+node -v
+npm -v
+
+---
+
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone Repository Or Download Zip File
@@ -134,12 +156,15 @@ User → LiveKit UI → Assistant Core → AI Model → Tool Modules → Operati
 ### 5️⃣ Frontend Setup
 ## Option 1 (Recommended - npm)
 
+* cd agent-ui
 * npm install
 * npm run dev
 
 ## Option 2 (Alternative - pnpm)
 
+* cd agent-ui
 * npm install -g pnpm
+* pnpm install 
 * pnpm run dev
 
 ---
