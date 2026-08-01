@@ -160,14 +160,14 @@ Before installing and running **J.A.R.V.I.S**, make sure the following software 
 
 * cd agent-ui
 * npm install
-* npm run dev
+* npm run dev (After installing npm only use this command to run Frontend)
 
 ## Option 2 (Alternative - pnpm)
 
 * cd agent-ui
-* npm install -g pnpm
-* pnpm install 
-* pnpm run dev
+* npm install -g pnpm (Use this command once to install pnpm)
+* pnpm install (It install project dependencies)
+* pnpm run dev (After installing pnpm only use this command to run Frontend)
 
 ---
 
