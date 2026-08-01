@@ -124,7 +124,7 @@ Before installing and running **J.A.R.V.I.S**, make sure the following software 
 ### 1️⃣ Clone Repository Or Download Zip File
 
 * git clone https://github.com/daredevil0005/J.A.R.V.I.S-V1.0.git
-* cd J.A.R.V.I.S-v1.0
+* cd J.A.R.V.I.S-V1.0
 
 ---
 
