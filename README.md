@@ -94,7 +94,7 @@ Examples:
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone Repository
+### 1️⃣ Clone Repository Or Download Zip File
 
 * git clone https://github.com/daredevil0005/J.A.R.V.I.S-v1.0.git
 * cd J.A.R.V.I.S-v1.0
@@ -103,9 +103,9 @@ Examples:
 
 ### 2️⃣ Backend Setup (Python)
 
-* py -m venv .venv
-* .\.venv\Scripts\Activate.ps1
-* python -m pip install -r requirements.txt
+* py -m venv .venv (Virtual enviroment setup)
+* venv\Scripts\activate (Activating Virtual enviroment)
+* python -m pip install -r requirements.txt (Installing required packages)
 
 ---
 
@@ -122,7 +122,7 @@ Examples:
 
 ---
 
-### 4️⃣ Run Backend
+### 4️⃣ Run Backend To Test 
 
 * python agent.py console
 
@@ -131,8 +131,8 @@ Examples:
 ### 5️⃣ Frontend Setup
 
 * cd agent-ui
-* npm install
-* npm run dev
+* npm install or pnpm install
+* npm run dev or pnpm run dev
 
 ---
 
