@@ -106,9 +106,9 @@ User → LiveKit UI → Assistant Core → AI Model → Tool Modules → Operati
 
 ### 2️⃣ Backend Setup (Python)
 
-* py -m venv .venv  (Virtual enviroment setup)
-* .\venv\Scripts\activate  (Activating Virtual enviroment)
-* python -m pip install -r requirements.txt  (Installing required packages)
+* py -m venv .venv - (Virtual enviroment setup)
+* .\venv\Scripts\activate - (Activating Virtual enviroment)
+* python -m pip install -r requirements.txt - (Installing required packages)
 
 ---
 
@@ -139,7 +139,7 @@ User → LiveKit UI → Assistant Core → AI Model → Tool Modules → Operati
 
 ## Option 2 (Alternative - pnpm)
 
-* pnpm install
+* npm install -g pnpm
 * pnpm run dev
 
 ---
