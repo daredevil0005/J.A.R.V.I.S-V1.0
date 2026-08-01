@@ -111,9 +111,9 @@ Before installing and running **J.A.R.V.I.S**, make sure the following software 
 
 ### Verify Installation
 
-python --version
-node -v
-npm -v
+* python --version
+* node -v
+* npm -v
 
 ---
 
