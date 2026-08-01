@@ -2,9 +2,14 @@
 
 > 🚀 Real-time AI assistant with automation, memory, and system control
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Status](https://img.shields.io/badge/Status-Active-success)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=for-the-badge&logo=next.js)
+![Node.js](https://img.shields.io/badge/Node.js-22+-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![LiveKit](https://img.shields.io/badge/LiveKit-Realtime-7C3AED?style=for-the-badge)
+![Gemini](https://img.shields.io/badge/Google-Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![WebRTC](https://img.shields.io/badge/WebRTC-Enabled-FF6F00?style=for-the-badge)
+![Windows](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
 ---
 
