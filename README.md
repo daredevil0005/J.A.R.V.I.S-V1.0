@@ -93,12 +93,6 @@ User → LiveKit UI → Assistant Core → AI Model → Tool Modules → Operati
   <img src="assets/3.png" width="70%" />
 </p>
 
-Examples:
-
-* UI running in browser
-* Voice interaction
-* Terminal output
-
 ---
 
 ## ⚙️ Installation & Setup
@@ -112,9 +106,9 @@ Examples:
 
 ### 2️⃣ Backend Setup (Python)
 
-* py -m venv .venv (Virtual enviroment setup)
-* venv\Scripts\activate (Activating Virtual enviroment)
-* python -m pip install -r requirements.txt (Installing required packages)
+* py -m venv .venv  (Virtual enviroment setup)
+* .\venv\Scripts\activate  (Activating Virtual enviroment)
+* python -m pip install -r requirements.txt  (Installing required packages)
 
 ---
 
@@ -138,15 +132,15 @@ Examples:
 ---
 
 ### 5️⃣ Frontend Setup
-Option 1 (Recommended - npm)
+## Option 1 (Recommended - npm)
 
-npm install
-npm run dev
+* npm install
+* npm run dev
 
-Option 2 (Alternative - pnpm)
+## Option 2 (Alternative - pnpm)
 
-pnpm install
-pnpm run dev
+* pnpm install
+* pnpm run dev
 
 ---
 
@@ -192,6 +186,7 @@ pnpm run dev
 ## 🧾 Memory System
 
 Jarvis can store and recall user data.
+Jarvis uses a local SQLite database (memory.db) to store user memories and conversation history.
 
 Example:
 
