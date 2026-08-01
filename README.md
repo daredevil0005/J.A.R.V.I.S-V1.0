@@ -123,7 +123,7 @@ Before installing and running **J.A.R.V.I.S**, make sure the following software 
 
 ### 1️⃣ Clone Repository Or Download Zip File
 
-* git clone https://github.com/daredevil0005/J.A.R.V.I.S-v1.0.git
+* git clone https://github.com/daredevil0005/J.A.R.V.I.S-V1.0.git
 * cd J.A.R.V.I.S-v1.0
 
 ---
@@ -140,12 +140,12 @@ Before installing and running **J.A.R.V.I.S**, make sure the following software 
 
 * Create `.env` file in root folder:
 
-* GOOGLE_API_KEY=your_api_key, 
-* GOOGLE_SEARCH_API_KEY=your_search_key, 
-* SEARCH_ENGINE_ID=your_engine_id, 
-* LIVEKIT_URL=your_livekit_url, 
-* LIVEKIT_API_KEY=your_livekit_key, 
-* LIVEKIT_API_SECRET=your_livekit_secret, 
+* GOOGLE_API_KEY=your_api_key
+* GOOGLE_SEARCH_API_KEY=your_search_key
+* SEARCH_ENGINE_ID=your_engine_id
+* LIVEKIT_URL=your_livekit_url
+* LIVEKIT_API_KEY=your_livekit_key
+* LIVEKIT_API_SECRET=your_livekit_secret 
 
 ---
 
@@ -159,15 +159,15 @@ Before installing and running **J.A.R.V.I.S**, make sure the following software 
 ## Option 1 (Recommended - npm)
 
 * cd agent-ui
-* npm install
-* npm run dev (After installing npm only use this command to run Frontend)
+* npm install      # Install project dependencies (first time only)
+* npm run dev      # Start the frontend
 
 ## Option 2 (Alternative - pnpm)
 
 * cd agent-ui
-* npm install -g pnpm (Use this command once to install pnpm)
-* pnpm install (It install project dependencies)
-* pnpm run dev (After installing pnpm only use this command to run Frontend)
+* npm install -g pnpm   # Install pnpm (one-time setup)
+* pnpm install          # Install project dependencies
+* pnpm run dev          # Start the frontend
 
 ---
 
@@ -212,8 +212,9 @@ Before installing and running **J.A.R.V.I.S**, make sure the following software 
 
 ## 🧾 Memory System
 
-Jarvis can store and recall user data.
-Jarvis uses a local SQLite database (memory.db) to store user memories and conversation history.
+* Jarvis can store and recall user data.
+* Jarvis uses a local SQLite database (memory.db) to store user memories and conversation history.
+* memory.db is automatically created when J.A.R.V.I.S is started for the first time. No manual database setup is required.
 
 Example:
 
@@ -288,6 +289,7 @@ Tested for:
 ## 👨‍💻 Author
 
 **Pratik S. Dabhane**
+* GitHub: https://github.com/daredevil0005
 
 ---
 
@@ -296,6 +298,26 @@ Tested for:
 J.A.R.V.I.S demonstrates **real-time AI interaction + automation + system control** in a single integrated system.
 
 It showcases how modern AI technologies can be applied to build intelligent, interactive applications.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+If you'd like to contribute:
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes.
+4. Push your branch.
+5. Open a Pull Request.
 
 ---
 
