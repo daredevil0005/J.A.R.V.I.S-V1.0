@@ -107,6 +107,8 @@ Before installing and running **J.A.R.V.I.S**, make sure the following software 
 | pnpm *(Optional)* | Latest | Alternative package manager for the frontend |
 | Git *(Optional)* | Latest | Clone the repository and manage source code |
 
+> **Note:** J.A.R.V.I.S supports both **npm** and **pnpm**. Use only one package manager for a given installation. If you switch package managers, delete the `node_modules` folder and reinstall the dependencies.
+
 ---
 
 ### Verify Installation
